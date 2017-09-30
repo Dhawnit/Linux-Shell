@@ -22,13 +22,13 @@ Input from the 'stdin' in an infinite loop till an “exit” is entered. The co
 
 Example:
 ```
-Shell name: D_shell
 bash prompt:~$ ./a.out
 
 D_shell:/home/user$ ls
-MyShell_v4.cpp a.out
+MyShell_v6.cpp a.out
 D_shell:/home/user$ fdre
 D_shell: fdre: No command found
 D_shell:/home/user$ exit
+
 bash prompt:~$
 ```
