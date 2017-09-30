@@ -1,15 +1,9 @@
-=======================================================
-|													  |
-|	  UNIX SHELL IMPLEMENTATION IN C++	              |
-|	  SHELL NAME: D_shell							  |
-|	  Author: DHAWNIT KHURANA		                  |
-|	  Email ID: dhawni.khurana@students.iiit.ac.in    |
-|													  |
-=======================================================
+# LINUX SHELL IMPLEMENTATION IN C++
+SHELL NAME: D_shell
+Author: DHAWNIT KHURANA
+Email ID: dhawni.khurana@students.iiit.ac.in
 
-===============================================================================================================
-								              D_shell Features
-===============================================================================================================								
+D_shell Features
 
 This program simulates the working of command line interface in Unix-like environment. Implemented Functionalities are as under:
 
@@ -22,9 +16,8 @@ This program simulates the working of command line interface in Unix-like enviro
 7. Pipes “|” (multiple) (Ex: ls | grep 'a' | wc)
 8. SIGINT has been handled (control-c). It doesnot kills the shell instead it cause the shell to kill the   process in the current foreground job. 
 
-===============================================================================================================
-                                               Input/Output Format
-===============================================================================================================
+
+Input/Output Format
 
 Input from the 'stdin' in an infinite loop till an “exit” is entered.
 The corresponding output should be printed to 'stdout'.
@@ -39,5 +32,3 @@ D_shell:/home/user$ fdre
 D_shell: fdre: No command found
 D_shell:/home/user$ exit
 bash prompt:~$
-
-===============================================================================================================
